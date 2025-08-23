@@ -11,7 +11,7 @@ It works!
 
 # Install for Windows and OSx
 - create env: python -m venv .venv
-- source .venv/bin/activate
+- activate "source .venv/bin/activate" on OSx and ".\.venv\Scripts\Activate.bs1" on Windows
 - pip install -r requirements.txt
 
 # Install for other platform
