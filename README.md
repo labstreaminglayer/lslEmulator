@@ -10,9 +10,9 @@ python emmulatorRunner.py
 It works!
 
 # Install for Windows and OSx
-- create env: python -m venv .venv
+- create env: "python -m venv .venv"
 - activate "source .venv/bin/activate" on OSx and ".\.venv\Scripts\Activate.bs1" on Windows
-- pip install -r requirements.txt
+- "pip install -r requirements.txt"
 
 # Install for other platform
 - download the LSL lib release and uncompress https://github.com/sccn/liblsl/releases
