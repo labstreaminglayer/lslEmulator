@@ -14,7 +14,7 @@ It works!
 - activate "source .venv/bin/activate" on OSx and ".\.venv\Scripts\Activate.bs1" on Windows
 - "pip install -r requirements.txt"
 
-# Install for other platform
+# Install for other platforms
 - download the LSL lib release and uncompress https://github.com/sccn/liblsl/releases
 - change environment var in emmulatorRunner.py
 
