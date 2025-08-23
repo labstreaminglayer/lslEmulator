@@ -21,3 +21,7 @@ It works!
 # Change number of channels
 
 Change number of channels in lines 95 and 96 of EmulatorCOM.py.
+
+# Credits
+- Designed by Dylan Brown
+- Packaged by Arnaud Delorme
