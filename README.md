@@ -16,11 +16,11 @@ It works!
 
 # Install for other platforms
 - download the LSL lib release and uncompress https://github.com/sccn/liblsl/releases
-- change environment var in emmulatorRunner.py
+- change environment var in emulatorRunner.py
 
 # Change number of channels
 
-Change number of channels in lines 95 and 96 of EmulatorCOM.py.
+Change the number of channels in lines 95 and 96 of EmulatorCOM.py.
 
 # Credits
 - Designed by Dylan Brown
