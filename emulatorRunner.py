@@ -4,16 +4,19 @@ import serial.tools.list_ports as port_list
 
 # Set PYLSL_LIB environment variable BEFORE importing any modules that use pylsl
 if sys.platform == "win32":
-    os.environ["PYLSL_LIB"] = r"C:\\Users\\Arnaud Delorme\\Desktop\\lslEmulator\\liblsl-1.16.2-Win_amd64\\lib\\lsl.lib"
+    # Now import modules that depend on pylsl
+    from EmulatorCOM import EmulatorCOM
+    from AxonCOM import State
+    os.environ["PYLSL_LIB"] = r".\\liblsl-1.16.2-Win_amd64\\lib\\lsl.lib"
 elif sys.platform == "darwin":
-    os.environ["PYLSL_LIB"] = r"/Users/arno/Python/lslEmulator/liblsl-1.16.2-OSX_amd64/lib/liblsl.dylib"
+    os.environ["PYLSL_LIB"] = r"./liblsl-1.16.2-OSX_amd64/lib/liblsl.dylib"
+    # Now import modules that depend on pylsl
+    from EmulatorCOM import EmulatorCOM
+    from AxonCOM import State
 else:
     print("Unsupported platform")
     exit()
 
-# Now import modules that depend on pylsl
-from EmulatorCOM import EmulatorCOM
-from AxonCOM import State
 
 streamingStarted = False
 emmy = EmulatorCOM()
