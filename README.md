@@ -4,7 +4,7 @@ Install on Windows os OSx.
 Type in
 
 ```
-python emmulatorRunner.py
+python emulatorRunner.py
 ```
 
 It works!
