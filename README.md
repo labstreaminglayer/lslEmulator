@@ -9,7 +9,7 @@ python emmulatorRunner.py
 
 It works!
 
-# Install
+# Install for Windows and OSx
 - create env: python -m venv .venv
 - source .venv/bin/activate
 - pip install -r requirements.txt
