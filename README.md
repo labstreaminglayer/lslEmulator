@@ -1,7 +1,6 @@
 # lsl emulator that just works
 
-Install on Windows os OSx.
-Type in
+This emulator creates a stream of random data. Install on Windows os OSx. Then type
 
 ```
 python emulatorRunner.py
