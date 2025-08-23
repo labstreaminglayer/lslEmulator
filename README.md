@@ -1,4 +1,4 @@
-# lsl emulator that just works
+# An LSL emulator that just works
 
 This emulator creates a stream of random data. Install on Windows os OSx. Then type
 
