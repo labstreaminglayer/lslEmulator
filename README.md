@@ -1,6 +1,6 @@
 # An LSL emulator that just works
 
-This emulator creates a stream of random data. Install on Windows os OSx. Then type
+This emulator creates a stream of random data. It is useful for LSL testing or debugging purposes. Install on Windows os OSx. Then type
 
 ```
 python emulatorRunner.py
