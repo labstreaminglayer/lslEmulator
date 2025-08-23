@@ -31,7 +31,7 @@ It works!
 - download the LSL lib release and uncompress https://github.com/sccn/liblsl/releases
 - change environment var in emulatorRunner.py
 
-# Change number of channels
+# Change the number of channels
 
 Change the number of channels in lines 95 and 96 of EmulatorCOM.py.
 
