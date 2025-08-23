@@ -13,9 +13,10 @@ It works!
 - create env: python -m venv .venv
 - source .venv/bin/activate
 - pip install -r requirements.txt
-- pip install pyserial pylsl
-- comment "from signal_processing" line in AxonCOM.py
+
+# Install for other platform
 - download the LSL lib release and uncompress https://github.com/sccn/liblsl/releases
+- change environment var in emmulatorRunner.py
 
 # Change number of channels
 
